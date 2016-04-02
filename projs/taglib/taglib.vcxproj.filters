@@ -393,6 +393,12 @@
     <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v1\id3v1genres.cpp">
       <Filter>Quelldateien\mpeg\id3v1</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\podcastframe.cpp">
+      <Filter>Quelldateien\mpeg\id3v2\frames</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libs\taglib\taglib\tagutils.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="taglib_config.h">

@@ -71,27 +71,33 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\msys64\home\bd\src\github\bardware\tagcopier\projs\taglib;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\xm;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\wavpack;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\trueaudio;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\s3m;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mp4;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpc;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mod;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\it;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\asf;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ape;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\wav;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\aiff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\vorbis;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\speex;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\opus;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2\frames;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v1;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\toolkit;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\msys64\home\bd\src\github\bardware\tagcopier\projs\taglib;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\xm;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\wavpack;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\trueaudio;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\s3m;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mp4;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpc;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mod;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\it;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\asf;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ape;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\wav;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\aiff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\vorbis;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\speex;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\opus;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2\frames;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v1;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\toolkit;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\msys64\home\bd\src\github\bardware\tagcopier\projs\taglib;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\xm;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\wavpack;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\trueaudio;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\s3m;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mp4;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpc;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mod;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\it;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\asf;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ape;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\wav;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\aiff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\vorbis;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\speex;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\opus;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2\frames;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v1;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\toolkit;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\msys64\home\bd\src\github\bardware\tagcopier\projs\taglib;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\xm;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\wavpack;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\trueaudio;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\s3m;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mp4;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpc;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mod;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\it;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\asf;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ape;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\wav;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\aiff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\vorbis;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\speex;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\opus;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2\frames;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v1;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\toolkit;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);TAGLIB_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>taglib.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -99,12 +105,14 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);TAGLIB_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>taglib.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -114,7 +122,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);TAGLIB_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -122,6 +130,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>taglib.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -131,7 +141,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);TAGLIB_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -139,6 +149,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>taglib.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
