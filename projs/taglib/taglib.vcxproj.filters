@@ -387,8 +387,11 @@
     <ClCompile Include="..\..\libs\taglib\taglib\tagunion.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tzlib.cpp">
+      <Filter>Quelldateien\toolkit</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v1\id3v1genres.cpp">
-      <Filter>Quelldateien</Filter>
+      <Filter>Quelldateien\mpeg\id3v1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
