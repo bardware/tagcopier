@@ -69,14 +69,26 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir);D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2\frames;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\wav;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\aiff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\xm;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\wavpack;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\trueaudio;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\s3m;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\vorbis;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\speex;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\opus;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v1;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpc;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mp4;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mod;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\it;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\asf;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ape;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\toolkit;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir);D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2\frames;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\wav;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\aiff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\xm;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\wavpack;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\trueaudio;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\s3m;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\vorbis;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\speex;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\opus;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v1;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpc;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mp4;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mod;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\it;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\asf;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ape;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\toolkit;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir);D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2\frames;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\wav;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\aiff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\xm;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\wavpack;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\trueaudio;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\s3m;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\vorbis;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\speex;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\opus;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v1;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpc;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mp4;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mod;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\it;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\asf;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ape;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\toolkit;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(ProjectDir);D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2\frames;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\wav;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff\aiff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\xm;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\wavpack;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\trueaudio;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\s3m;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\riff;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\vorbis;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\speex;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\opus;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ogg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v2;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg\id3v1;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpeg;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mpc;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mp4;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\mod;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\it;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\flac;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\asf;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\ape;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib;D:\msys64\home\bd\src\github\bardware\tagcopier\libs\taglib\taglib\toolkit;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);TAGLIB_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -88,7 +100,8 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions);TAGLIB_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -102,7 +115,8 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);TAGLIB_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -118,7 +132,8 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions);TAGLIB_STATIC</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -128,6 +143,110 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libs\taglib\taglib\ape\apefile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ape\apefooter.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ape\apeitem.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ape\apeproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ape\apetag.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\asf\asfattribute.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\asf\asffile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\asf\asfpicture.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\asf\asfproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\asf\asftag.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\audioproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\fileref.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\flac\flacfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\flac\flacmetadatablock.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\flac\flacpicture.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\flac\flacproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\flac\flacunknownmetadatablock.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\it\itfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\it\itproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mod\modfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mod\modfilebase.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mod\modproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mod\modtag.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mp4\mp4atom.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mp4\mp4coverart.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mp4\mp4file.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mp4\mp4item.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mp4\mp4properties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mp4\mp4tag.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpc\mpcfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpc\mpcproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v1\id3v1genres.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v1\id3v1tag.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\attachedpictureframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\chapterframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\commentsframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\eventtimingcodesframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\generalencapsulatedobjectframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\ownershipframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\popularimeterframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\privateframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\relativevolumeframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\synchronizedlyricsframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\tableofcontentsframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\textidentificationframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\uniquefileidentifierframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\unknownframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\unsynchronizedlyricsframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\frames\urllinkframe.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\id3v2extendedheader.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\id3v2footer.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\id3v2frame.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\id3v2framefactory.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\id3v2header.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\id3v2synchdata.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\id3v2\id3v2tag.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\mpegfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\mpegheader.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\mpegproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\mpeg\xingheader.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\flac\oggflacfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\oggfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\oggpage.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\oggpageheader.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\opus\opusfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\opus\opusproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\speex\speexfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\speex\speexproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\vorbis\vorbisfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\vorbis\vorbisproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\ogg\xiphcomment.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\riff\aiff\aifffile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\riff\aiff\aiffproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\riff\rifffile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\riff\wav\infotag.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\riff\wav\wavfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\riff\wav\wavproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\s3m\s3mfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\s3m\s3mproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\tag.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\tagunion.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tbytevector.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tbytevectorlist.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tbytevectorstream.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tdebug.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tdebuglistener.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tfilestream.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tiostream.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tpropertymap.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\trefcounter.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tstring.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\toolkit\tstringlist.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\trueaudio\trueaudiofile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\trueaudio\trueaudioproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\wavpack\wavpackfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\wavpack\wavpackproperties.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\xm\xmfile.cpp" />
+    <ClCompile Include="..\..\libs\taglib\taglib\xm\xmproperties.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="taglib_config.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
