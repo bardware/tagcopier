@@ -4,8 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tagcopier", "tagcopier\tagcopier.vcxproj", "{97C1B0A6-2A26-4779-B8E3-1EE668BF18A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86219405-1341-48E0-AE2C-10FD19FE29D1} = {86219405-1341-48E0-AE2C-10FD19FE29D1}
+		{E53A55AB-0D67-47C1-BDE8-2D2C1BB14BD6} = {E53A55AB-0D67-47C1-BDE8-2D2C1BB14BD6}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taglib", "projs\taglib\taglib.vcxproj", "{86219405-1341-48E0-AE2C-10FD19FE29D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E53A55AB-0D67-47C1-BDE8-2D2C1BB14BD6} = {E53A55AB-0D67-47C1-BDE8-2D2C1BB14BD6}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "projs\zlib\zlib.vcxproj", "{E53A55AB-0D67-47C1-BDE8-2D2C1BB14BD6}"
 EndProject

@@ -26,3 +26,5 @@
 #include "mp4/mp4tag.h"
 #include "mp4/mp4coverart.h"
 #include "flac/flacpicture.h"
+
+#include "cmdparser.hpp"
