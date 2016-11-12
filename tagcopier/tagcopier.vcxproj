@@ -71,19 +71,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)\libs\CmdParser;$(SolutionDir)projs\taglib;$(SolutionDir)libs\taglib\taglib\xm;$(SolutionDir)libs\taglib\taglib\wavpack;$(SolutionDir)libs\taglib\taglib\trueaudio;$(SolutionDir)libs\taglib\taglib\s3m;$(SolutionDir)libs\taglib\taglib\mp4;vlibs\taglib\taglib\mpc;$(SolutionDir)libs\taglib\taglib\mod;$(SolutionDir)libs\taglib\taglib\it;$(SolutionDir)libs\taglib\taglib\flac;$(SolutionDir)libs\taglib\taglib\asf;$(SolutionDir)libs\taglib\taglib\ape;$(SolutionDir)libs\taglib\taglib\riff\wav;$(SolutionDir)libs\taglib\taglib\riff\aiff;$(SolutionDir)libs\taglib\taglib\riff;$(SolutionDir)libs\taglib\taglib\ogg\vorbis;$(SolutionDir)libs\taglib\taglib\ogg\speex;$(SolutionDir)libs\taglib\taglib\ogg\opus;$(SolutionDir)libs\taglib\taglib\ogg\flac;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2\frames;$(SolutionDir)libs\taglib\taglib\mpeg\id3v1;$(SolutionDir)libs\taglib\taglib\mpeg;$(SolutionDir)libs\taglib\taglib\toolkit;$(SolutionDir)libs\taglib\taglib;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\libs\CmdParser;$(SolutionDir)projs\taglib;$(SolutionDir)libs\taglib\taglib\xm;$(SolutionDir)libs\taglib\taglib\wavpack;$(SolutionDir)libs\taglib\taglib\trueaudio;$(SolutionDir)libs\taglib\taglib\s3m;$(SolutionDir)libs\taglib\taglib\mp4;vlibs\taglib\taglib\mpc;$(SolutionDir)libs\taglib\taglib\mod;$(SolutionDir)libs\taglib\taglib\it;$(SolutionDir)libs\taglib\taglib\flac;$(SolutionDir)libs\taglib\taglib\asf;$(SolutionDir)libs\taglib\taglib\ape;$(SolutionDir)libs\taglib\taglib\riff\wav;$(SolutionDir)libs\taglib\taglib\riff\aiff;$(SolutionDir)libs\taglib\taglib\riff;$(SolutionDir)libs\taglib\taglib\ogg\vorbis;$(SolutionDir)libs\taglib\taglib\ogg\speex;$(SolutionDir)libs\taglib\taglib\ogg\opus;$(SolutionDir)libs\taglib\taglib\ogg\flac;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2\frames;$(SolutionDir)libs\taglib\taglib\mpeg\id3v1;$(SolutionDir)libs\taglib\taglib\mpeg;$(SolutionDir)libs\taglib\taglib\toolkit;$(SolutionDir)libs\taglib\taglib;$(SolutionDir)\libs\AnyOption;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(SolutionDir)\libs\CmdParser;$(SolutionDir)projs\taglib;$(SolutionDir)libs\taglib\taglib\xm;$(SolutionDir)libs\taglib\taglib\wavpack;$(SolutionDir)libs\taglib\taglib\trueaudio;$(SolutionDir)libs\taglib\taglib\s3m;$(SolutionDir)libs\taglib\taglib\mp4;vlibs\taglib\taglib\mpc;$(SolutionDir)libs\taglib\taglib\mod;$(SolutionDir)libs\taglib\taglib\it;$(SolutionDir)libs\taglib\taglib\flac;$(SolutionDir)libs\taglib\taglib\asf;$(SolutionDir)libs\taglib\taglib\ape;$(SolutionDir)libs\taglib\taglib\riff\wav;$(SolutionDir)libs\taglib\taglib\riff\aiff;$(SolutionDir)libs\taglib\taglib\riff;$(SolutionDir)libs\taglib\taglib\ogg\vorbis;$(SolutionDir)libs\taglib\taglib\ogg\speex;$(SolutionDir)libs\taglib\taglib\ogg\opus;$(SolutionDir)libs\taglib\taglib\ogg\flac;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2\frames;$(SolutionDir)libs\taglib\taglib\mpeg\id3v1;$(SolutionDir)libs\taglib\taglib\mpeg;$(SolutionDir)libs\taglib\taglib\toolkit;$(SolutionDir)libs\taglib\taglib;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\libs\CmdParser;$(SolutionDir)projs\taglib;$(SolutionDir)libs\taglib\taglib\xm;$(SolutionDir)libs\taglib\taglib\wavpack;$(SolutionDir)libs\taglib\taglib\trueaudio;$(SolutionDir)libs\taglib\taglib\s3m;$(SolutionDir)libs\taglib\taglib\mp4;vlibs\taglib\taglib\mpc;$(SolutionDir)libs\taglib\taglib\mod;$(SolutionDir)libs\taglib\taglib\it;$(SolutionDir)libs\taglib\taglib\flac;$(SolutionDir)libs\taglib\taglib\asf;$(SolutionDir)libs\taglib\taglib\ape;$(SolutionDir)libs\taglib\taglib\riff\wav;$(SolutionDir)libs\taglib\taglib\riff\aiff;$(SolutionDir)libs\taglib\taglib\riff;$(SolutionDir)libs\taglib\taglib\ogg\vorbis;$(SolutionDir)libs\taglib\taglib\ogg\speex;$(SolutionDir)libs\taglib\taglib\ogg\opus;$(SolutionDir)libs\taglib\taglib\ogg\flac;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2\frames;$(SolutionDir)libs\taglib\taglib\mpeg\id3v1;$(SolutionDir)libs\taglib\taglib\mpeg;$(SolutionDir)libs\taglib\taglib\toolkit;$(SolutionDir)libs\taglib\taglib;$(SolutionDir)\libs\AnyOption;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(SolutionDir)\libs\CmdParser;$(SolutionDir)projs\taglib;$(SolutionDir)libs\taglib\taglib\xm;$(SolutionDir)libs\taglib\taglib\wavpack;$(SolutionDir)libs\taglib\taglib\trueaudio;$(SolutionDir)libs\taglib\taglib\s3m;$(SolutionDir)libs\taglib\taglib\mp4;vlibs\taglib\taglib\mpc;$(SolutionDir)libs\taglib\taglib\mod;$(SolutionDir)libs\taglib\taglib\it;$(SolutionDir)libs\taglib\taglib\flac;$(SolutionDir)libs\taglib\taglib\asf;$(SolutionDir)libs\taglib\taglib\ape;$(SolutionDir)libs\taglib\taglib\riff\wav;$(SolutionDir)libs\taglib\taglib\riff\aiff;$(SolutionDir)libs\taglib\taglib\riff;$(SolutionDir)libs\taglib\taglib\ogg\vorbis;$(SolutionDir)libs\taglib\taglib\ogg\speex;$(SolutionDir)libs\taglib\taglib\ogg\opus;$(SolutionDir)libs\taglib\taglib\ogg\flac;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2\frames;$(SolutionDir)libs\taglib\taglib\mpeg\id3v1;$(SolutionDir)libs\taglib\taglib\mpeg;$(SolutionDir)libs\taglib\taglib\toolkit;$(SolutionDir)libs\taglib\taglib;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\libs\CmdParser;$(SolutionDir)projs\taglib;$(SolutionDir)libs\taglib\taglib\xm;$(SolutionDir)libs\taglib\taglib\wavpack;$(SolutionDir)libs\taglib\taglib\trueaudio;$(SolutionDir)libs\taglib\taglib\s3m;$(SolutionDir)libs\taglib\taglib\mp4;vlibs\taglib\taglib\mpc;$(SolutionDir)libs\taglib\taglib\mod;$(SolutionDir)libs\taglib\taglib\it;$(SolutionDir)libs\taglib\taglib\flac;$(SolutionDir)libs\taglib\taglib\asf;$(SolutionDir)libs\taglib\taglib\ape;$(SolutionDir)libs\taglib\taglib\riff\wav;$(SolutionDir)libs\taglib\taglib\riff\aiff;$(SolutionDir)libs\taglib\taglib\riff;$(SolutionDir)libs\taglib\taglib\ogg\vorbis;$(SolutionDir)libs\taglib\taglib\ogg\speex;$(SolutionDir)libs\taglib\taglib\ogg\opus;$(SolutionDir)libs\taglib\taglib\ogg\flac;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2\frames;$(SolutionDir)libs\taglib\taglib\mpeg\id3v1;$(SolutionDir)libs\taglib\taglib\mpeg;$(SolutionDir)libs\taglib\taglib\toolkit;$(SolutionDir)libs\taglib\taglib;$(SolutionDir)\libs\AnyOption;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(SolutionDir)\libs\CmdParser;$(SolutionDir)projs\taglib;$(SolutionDir)libs\taglib\taglib\xm;$(SolutionDir)libs\taglib\taglib\wavpack;$(SolutionDir)libs\taglib\taglib\trueaudio;$(SolutionDir)libs\taglib\taglib\s3m;$(SolutionDir)libs\taglib\taglib\mp4;vlibs\taglib\taglib\mpc;$(SolutionDir)libs\taglib\taglib\mod;$(SolutionDir)libs\taglib\taglib\it;$(SolutionDir)libs\taglib\taglib\flac;$(SolutionDir)libs\taglib\taglib\asf;$(SolutionDir)libs\taglib\taglib\ape;$(SolutionDir)libs\taglib\taglib\riff\wav;$(SolutionDir)libs\taglib\taglib\riff\aiff;$(SolutionDir)libs\taglib\taglib\riff;$(SolutionDir)libs\taglib\taglib\ogg\vorbis;$(SolutionDir)libs\taglib\taglib\ogg\speex;$(SolutionDir)libs\taglib\taglib\ogg\opus;$(SolutionDir)libs\taglib\taglib\ogg\flac;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2\frames;$(SolutionDir)libs\taglib\taglib\mpeg\id3v1;$(SolutionDir)libs\taglib\taglib\mpeg;$(SolutionDir)libs\taglib\taglib\toolkit;$(SolutionDir)libs\taglib\taglib;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\libs\CmdParser;$(SolutionDir)projs\taglib;$(SolutionDir)libs\taglib\taglib\xm;$(SolutionDir)libs\taglib\taglib\wavpack;$(SolutionDir)libs\taglib\taglib\trueaudio;$(SolutionDir)libs\taglib\taglib\s3m;$(SolutionDir)libs\taglib\taglib\mp4;vlibs\taglib\taglib\mpc;$(SolutionDir)libs\taglib\taglib\mod;$(SolutionDir)libs\taglib\taglib\it;$(SolutionDir)libs\taglib\taglib\flac;$(SolutionDir)libs\taglib\taglib\asf;$(SolutionDir)libs\taglib\taglib\ape;$(SolutionDir)libs\taglib\taglib\riff\wav;$(SolutionDir)libs\taglib\taglib\riff\aiff;$(SolutionDir)libs\taglib\taglib\riff;$(SolutionDir)libs\taglib\taglib\ogg\vorbis;$(SolutionDir)libs\taglib\taglib\ogg\speex;$(SolutionDir)libs\taglib\taglib\ogg\opus;$(SolutionDir)libs\taglib\taglib\ogg\flac;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2;$(SolutionDir)libs\taglib\taglib\mpeg\id3v2\frames;$(SolutionDir)libs\taglib\taglib\mpeg\id3v1;$(SolutionDir)libs\taglib\taglib\mpeg;$(SolutionDir)libs\taglib\taglib\toolkit;$(SolutionDir)libs\taglib\taglib;$(SolutionDir)\libs\AnyOption;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -98,7 +98,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>taglib.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>taglib.lib;zlib.lib;AnyOption.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -115,7 +115,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>taglib.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>taglib.lib;zlib.lib;AnyOption.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -136,7 +136,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>taglib.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>taglib.lib;zlib.lib;AnyOption.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -157,7 +157,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>taglib.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>taglib.lib;zlib.lib;AnyOption.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
